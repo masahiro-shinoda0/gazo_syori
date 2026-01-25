@@ -2,6 +2,11 @@
 いきなりプログラミングPythonの学習用に作成\
 OpenCVを使用
 
+Pythonの仮想環境を構築
+```bash
+python -m venv .venv
+```
+
 ## Pythonの基本的な使い方
 入出力
 ```python
@@ -69,6 +74,7 @@ n = r.randint(1,100)
 グラフ描画
 ```python
 import matplotlib.pyplot as plt
+
 a = [1,2,3,4]
 plt.plot(a)
 plt.show()

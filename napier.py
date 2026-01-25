@@ -17,7 +17,7 @@ start = t.time()
 sum = 0
 for i in range(n):
     sum += (1/kaijo(i))
-    print(i, kaijo(i))
+    # print(i, kaijo(i))
 
 
 
