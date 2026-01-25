@@ -14,8 +14,8 @@ for i in range(n):
     b.append(0)
     c.append(0)
 
+"""
 print(a)
-
 for i in range(n):
     k = r.randint(1,100)
     a[k-1] += 1
@@ -30,7 +30,7 @@ for i in range(n):
     b[ave-1] += 1
 
 print(b)
-
+"""
 
 
 for i in range(n):
@@ -44,8 +44,8 @@ for i in range(n):
 print(c)
 
 # 動かない
-#plt.plot(a, label='first')
-#plt.show()
+plt.plot(c, label='first')
+plt.show()
 
 for i in range(100):
     print(".", end="")
@@ -53,7 +53,7 @@ for i in range(100):
         print("#", end="")
     print()
 
-
+'''
 d = []
 N = 100000
 
@@ -73,3 +73,4 @@ for i in range(100):
     for j in range(int(d[i]/100)):
         print("#", end="")
     print()
+'''

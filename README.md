@@ -63,6 +63,24 @@ a.append(1)
 a.append([1,2,3])
 ```
 
+二次元配列
+```python
+a = []
+
+k = [1,2]
+l = [3,4]
+
+# 配列の追加
+a.append(k)
+a.append(l)
+"""
+a = [
+    [1, 2],
+    [3, 4]
+]
+"""
+```
+
 乱数
 ```python
 import random as r
@@ -78,4 +96,21 @@ import matplotlib.pyplot as plt
 a = [1,2,3,4]
 plt.plot(a)
 plt.show()
+```
+
+csv読み込み
+```python
+import csv
+
+# encoding="utf-8" で日本語を扱う
+# csv 読み込み
+with open("input.csv", newline="") as f:
+    reader = csv.reader(f)
+    for i in reader:
+        print(i)
+
+# csv 書き込み
+with open("output.csv", "w", newline="") as f:
+    writer = csv.writer(f)
+    writer.writerows(a)
 ```
