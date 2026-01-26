@@ -41,6 +41,17 @@ def kaijo(x):
     return kaijo
 ```
 
+再帰処理
+```python
+# フィボナッチ数列
+def fib(x):
+    if x==1:
+        return 1
+    if x==2:
+        return 1
+    return fib(x-1)+fib(x-2)
+```
+
 時間計測
 ```python
 import time as t
@@ -48,7 +59,7 @@ import time as t
 start = t.time()
 # 処理
 end = t.time()
-print("time:", start - end)
+print("time:", end - start)
 ```
 
 配列
