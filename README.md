@@ -29,6 +29,18 @@ for i in range(1,n):
     sum += (1/(i*i))
 ```
 
+if文
+```python
+n = int(input())
+
+if n%2 == 0:
+    print("even number")
+elif n%3 == 0:
+    print("multiples of 3 and not even number")
+else:
+    print("not even number, not multiles of 3")
+```
+
 関数
 ```python
 # 階乗を返す関数
@@ -62,7 +74,7 @@ end = t.time()
 print("time:", end - start)
 ```
 
-配列
+リスト
 ```python
 # 空の配列
 a = []
@@ -74,7 +86,7 @@ a.append(1)
 a.append([1,2,3])
 ```
 
-二次元配列
+二次元リスト
 ```python
 a = []
 
@@ -105,11 +117,18 @@ n = r.randint(1,100)
 import matplotlib.pyplot as plt
 
 a = [1,2,3,4]
-plt.plot(a)
+b = [1,2,3,4]
+
+plt.xlabel('x軸')
+plt.xlabel('y軸')
+plt.plot(a, b)
+
+plt.title('title')
+
 plt.show()
 ```
 
-csv読み込み
+csv
 ```python
 import csv
 
