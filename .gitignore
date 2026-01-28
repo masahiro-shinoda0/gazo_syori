@@ -7,3 +7,6 @@ text/
 
 # dateを無視
 output
+
+# 課題ファイルを無視
+kadai

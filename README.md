@@ -66,11 +66,11 @@ def fib(x):
 
 時間計測
 ```python
-import time as t
+import time
 
-start = t.time()
+start = time.time()
 # 処理
-end = t.time()
+end = time.time()
 print("time:", end - start)
 ```
 
@@ -100,6 +100,7 @@ enumerate(a)
 
 # ソート
 sorted(a)
+a.sort()
 ```
 
 二次元リスト
@@ -122,10 +123,13 @@ a = [
 
 乱数
 ```python
-import random as r
+import random
 
 # 1~100の整数で乱数を生成
-n = r.randint(1,100)
+n = random.randint(1,100)
+
+# 0~1の浮動小数点数の乱数を生成
+m = random.uniform(0,1)
 ```
 
 グラフ描画
