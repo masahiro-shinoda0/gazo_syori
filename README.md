@@ -76,14 +76,30 @@ print("time:", end - start)
 
 リスト
 ```python
-# 空の配列
+# 宣言
 a = []
 
 # 要素を追加
 a.append(1)
+a.append(5,7,9,8,3,2)
+
+# 2番目に3を挿入
+a.insert(2,1)
+
+# 要素の削除
+a.remove(1)
 
 # 配列の追加
-a.append([1,2,3])
+b.append([1,2,3])
+
+# リストの長さ
+len(a)
+
+# インデックスと組み合わせる
+enumerate(a)
+
+# ソート
+sorted(a)
 ```
 
 二次元リスト
