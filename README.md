@@ -79,18 +79,13 @@ print("time:", end - start)
 # 宣言
 a = []
 
-# 要素を追加
+# 要素を追加，削除
 a.append(1)
 a.append(5,7,9,8,3,2)
+a.remove(2)
 
 # 2番目に3を挿入
 a.insert(2,1)
-
-# 要素の削除
-a.remove(1)
-
-# 配列の追加
-b.append([1,2,3])
 
 # リストの長さ
 len(a)
@@ -99,7 +94,7 @@ len(a)
 enumerate(a)
 
 # ソート
-sorted(a)
+sorted(a) # イテレータ
 a.sort()
 ```
 
@@ -113,6 +108,7 @@ l = [3,4]
 # 配列の追加
 a.append(k)
 a.append(l)
+a.append([5,6])
 """
 a = [
     [1, 2],
@@ -131,6 +127,17 @@ print(b["key1"]) # "valu1"
 # 追加，削除
 b["key3"] = "value3
 del b["key3"]
+
+# 辞書を一覧で表示
+for i in b:
+    print(i, b[i]) # key, value
+```
+
+タプル
+```python
+# 定義
+t = (1,2,3,4,5)
+tu = (1,) # 要素が1つのとき
 ```
 
 乱数
