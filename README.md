@@ -121,6 +121,18 @@ a = [
 """
 ```
 
+辞書
+```python
+# 定義
+a = {}
+b = {"key1":"value1", "key2":"value2"}
+print(b["key1"]) # "valu1"
+
+# 追加，削除
+b["key3"] = "value3
+del b["key3"]
+```
+
 乱数
 ```python
 import random
