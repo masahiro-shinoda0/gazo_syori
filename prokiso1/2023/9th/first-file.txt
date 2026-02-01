@@ -1,0 +1,6 @@
+hello world
+good morning
+I am sleepy.
+Do you like mochi?
+alphabet
+exp(x*i) = cos(x) + i*sin(x)
