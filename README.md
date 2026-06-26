@@ -10,6 +10,22 @@ python -m venv .venv
 # GitHubの使い方
 [使い方まとめ](https://github.com/masahiro-shinoda0/AtCoder/blob/main/readme/HowToUseGitHub.md)
 
+# Python 仮想環境
+仮想環境を作成
+```python
+python3 -m venv .venv
+```
+
+仮想環境を有効化
+```python
+source .venv/bin/avtivate
+```
+
+仮想環境を抜ける
+```python
+deactivate
+```
+
 ## Pythonの基本的な使い方
 入出力
 ```python
