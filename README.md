@@ -7,6 +7,9 @@ Pythonの仮想環境を構築
 python -m venv .venv
 ```
 
+# GitHubの使い方
+[使い方まとめ](https://github.com/masahiro-shinoda0/AtCoder/blob/main/readme/HowToUseGitHub.md)
+
 ## Pythonの基本的な使い方
 入出力
 ```python
